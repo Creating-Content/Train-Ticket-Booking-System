@@ -70,15 +70,8 @@ Interact with the application.
 The application will print a menu to the console, and you can type your choices (numbers 1-7) and press Enter to interact.
 
 💾 Data Files (.json)
-The application uses users.json and trains.json for data persistence.
-
-users.json: Stores user details, including hashed passwords and their booked tickets.
-
-trains.json: Stores train details, including available seats and station schedules.
-
-These files are located in app/src/main/resources/localDB/. If these files do not exist when the application runs, they will be created automatically with empty data structures.
-
-Sample trains.json Content (Initial)
+![Alt text for the image](output_images/train_data1.png)
+![Alt text for the image](output_images/train_data2.png)
 
 🖥️ Sample Interaction / Output
 Here's a simulated terminal session demonstrating a user signing up, logging in, searching for a train, booking a seat, and viewing their bookings.
