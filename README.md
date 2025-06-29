@@ -1,7 +1,8 @@
 # Train-Ticket-Booking-System
 
 ## 🚂 Java Console-Based Train Ticket Booking System
-A simple console-based application built with Java and Gradle for managing train bookings, user accounts, and train seat availability, with data persistence handled via JSON files.
+![Alt text for the image](output_images/output1.png)
+A console-based application built with Java and Gradle for managing train bookings, user accounts, and train seat availability, with data persistence handled via JSON files.
 
 ✨ Features
 User Management: Sign up new users, log in existing users, and secure user accounts with hashed passwords.
