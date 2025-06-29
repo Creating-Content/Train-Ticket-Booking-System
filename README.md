@@ -5,15 +5,15 @@
 A console-based application built with Java and Gradle for managing train bookings, user accounts, and train seat availability, with data persistence handled via JSON files.
 
 ## ✨ Features
-###User Management: Sign up new users, log in existing users, and secure user accounts with hashed passwords.
+### User Management: Sign up new users, log in existing users, and secure user accounts with hashed passwords.
 
-###Train Search: Find available trains between specified source and destination stations.
+### Train Search: Find available trains between specified source and destination stations.
 
-###Seat Booking: Book seats on available trains, with real-time updates to seat availability.
+### Seat Booking: Book seats on available trains, with real-time updates to seat availability.
 
-###Booking Management: Fetch and view personal booking history, and cancel existing bookings.
+### Booking Management: Fetch and view personal booking history, and cancel existing bookings.
 
-###Data Persistence: All user and train data is stored and loaded from local JSON files, ensuring data is saved across application runs.
+### Data Persistence: All user and train data is stored and loaded from local JSON files, ensuring data is saved across application runs.
 
 ## 🚀 Technologies Used
 Java: The core programming language for the application logic.
@@ -70,7 +70,9 @@ Interact with the application.
 The application will print a menu to the console, and you can type your choices (numbers 1-7) and press Enter to interact.
 
 💾 Data Files (.json)
+
 ![Alt text for the image](output_images/train_data1.png)
+
 ![Alt text for the image](output_images/train_data2.png)
 
 🖥️ Sample Interaction / Output
