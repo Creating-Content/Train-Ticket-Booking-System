@@ -4,18 +4,18 @@
 ![Alt text for the image](output_images/output1.png)
 A console-based application built with Java and Gradle for managing train bookings, user accounts, and train seat availability, with data persistence handled via JSON files.
 
-✨ Features
-User Management: Sign up new users, log in existing users, and secure user accounts with hashed passwords.
+## ✨ Features
+###User Management: Sign up new users, log in existing users, and secure user accounts with hashed passwords.
 
-Train Search: Find available trains between specified source and destination stations.
+###Train Search: Find available trains between specified source and destination stations.
 
-Seat Booking: Book seats on available trains, with real-time updates to seat availability.
+###Seat Booking: Book seats on available trains, with real-time updates to seat availability.
 
-Booking Management: Fetch and view personal booking history, and cancel existing bookings.
+###Booking Management: Fetch and view personal booking history, and cancel existing bookings.
 
-Data Persistence: All user and train data is stored and loaded from local JSON files, ensuring data is saved across application runs.
+###Data Persistence: All user and train data is stored and loaded from local JSON files, ensuring data is saved across application runs.
 
-🚀 Technologies Used
+## 🚀 Technologies Used
 Java: The core programming language for the application logic.
 
 Gradle: Build automation tool for managing dependencies and project compilation.
@@ -124,6 +124,13 @@ Sample trains.json Content (Initial)
 
 🖥️ Sample Interaction / Output
 Here's a simulated terminal session demonstrating a user signing up, logging in, searching for a train, booking a seat, and viewing their bookings.
+![Alt text for the image](output_images/output2.png)
+![Alt text for the image](output_images/output3.png)
+![Alt text for the image](output_images/output4.png)
+![Alt text for the image](output_images/output5.png)
+![Alt text for the image](output_images/output6.png)
+![Alt text for the image](output_images/output7.png)
+![Alt text for the image](output_images/output8.png)
 
 # Run the application .\gradlew.bat run # Output: Running Train Booking System UserBookingService: users.json not found. Creating an empty file. UserBookingService: User list saved to file. TrainService: trains.json not found. Creating an empty file. TrainService: Error saving train list to file: ... # (This might appear if trains.json is initially empty) --- Main Menu --- 1. Sign up 2. Login 3. Fetch My Bookings 4. Search Trains 5. Book a Seat 6. Cancel My Booking 7. Exit the App Enter your choice: 1 # User inputs '1' for Sign up Enter a username to sign up: john.doe # User inputs username Enter a password to sign up: mysecret123 # User inputs password UserBookingService: User list saved to file. Signup successful! Welcome, john.doe. --- Main Menu --- 1. Sign up 2. Login 3. Fetch My Bookings 4. Search Trains 5. Book a Seat 6. Cancel My Booking 7. Exit the App Enter your choice: 2 # User inputs '2' for Login Enter your username: john.doe # User inputs username Enter your password: mysecret123 # User inputs password Login successful! Welcome back, john.doe. --- Main Menu --- 1. Sign up 2. Login 3. Fetch My Bookings 4. Search Trains 5. Book a Seat 6. Cancel My Booking 7. Exit the App Enter your choice: 4 # User inputs '4' for Search Trains Type your source station: bangalore # User inputs source Type your destination station: delhi # User inputs destination Available Trains: 1. Train ID: bacs (No: 12345) Stations: [bangalore, jaipur, delhi] Available Seats: 24 --- Main Menu --- 1. Sign up 2. Login 3. Fetch My Bookings 4. Search Trains 5. Book a Seat 6. Cancel My Booking 7. Exit the App Enter your choice: 5 # User inputs '5' for Book a Seat Type your source station for booking: bangalore # User inputs source again Type your destination station for booking: delhi # User inputs destination again Available Trains for Booking: 1. Train ID: bacs (No: 12345) Available Seats: 24 Select a train by typing its number (1, 2, 3...): 1 # User selects train 1 Current seat layout (0=available, 1=booked): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Select the seat by typing the row and column (0-indexed) Enter the row: 0 # User enters row 0 Enter the column: 0 # User enters column 0 Attempting to book your seat.... TrainService: Seats updated for train: bacs UserBookingService: User list saved to file. Booked! Enjoy your journey! --- Main Menu --- 1. Sign up 2. Login 3. Fetch My Bookings 4. Search Trains 5. Book a Seat 6. Cancel My Booking 7. Exit the App Enter your choice: 3 # User inputs '3' for Fetch My Bookings Your Bookings: --- Tickets for john.doe --- Ticket ID: [UUID] | User: [UUID] | From: bangalore | To: delhi | On: [Date Time String] | Train: bacs ------------------------- --- Main Menu --- 1. Sign up 2. Login 3. Fetch My Bookings 4. Search Trains 5. Book a Seat 6. Cancel My Booking 7. Exit the App Enter your choice: 7 # User inputs '7' for Exit Exiting application. Goodbye! # Application terminates
 📝 Future Enhancements
