@@ -11,7 +11,7 @@
         "station_times": {
             "kolkata": "13:50:00",
             "bangalore": "13:50:00",
-            "delhi": "13:50:00"
+            "gurgaon": "13:50:00"
         },
         "stations": [
             "kolkata",
