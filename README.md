@@ -5,15 +5,15 @@
 A console-based application built with Java and Gradle for managing train bookings, user accounts, and train seat availability, with data persistence handled via JSON files.
 
 ## ✨ Features
-### User Management: Sign up new users, log in existing users, and secure user accounts with hashed passwords.
+User Management: Sign up new users, log in existing users, and secure user accounts with hashed passwords.
 
-### Train Search: Find available trains between specified source and destination stations.
+Train Search: Find available trains between specified source and destination stations.
 
-### Seat Booking: Book seats on available trains, with real-time updates to seat availability.
+Seat Booking: Book seats on available trains, with real-time updates to seat availability.
 
-### Booking Management: Fetch and view personal booking history, and cancel existing bookings.
+Booking Management: Fetch and view personal booking history, and cancel existing bookings.
 
-### Data Persistence: All user and train data is stored and loaded from local JSON files, ensuring data is saved across application runs.
+Data Persistence: All user and train data is stored and loaded from local JSON files, ensuring data is saved across application runs.
 
 ## 🚀 Technologies Used
 Java: The core programming language for the application logic.
@@ -31,8 +31,7 @@ Java Development Kit (JDK) 21 or later. You can download it from Oracle JDK or O
 Git (optional, for cloning the repository).
 
 Cloning the Repository (if applicable)
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name/app # Navigate into the 'app' module
+git clone https://github.com/Creating-Content/Train-Ticket-Booking-System.git
 
 Project Structure
 The core application logic resides in the app module.
