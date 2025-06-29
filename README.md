@@ -79,48 +79,6 @@ trains.json: Stores train details, including available seats and station schedul
 These files are located in app/src/main/resources/localDB/. If these files do not exist when the application runs, they will be created automatically with empty data structures.
 
 Sample trains.json Content (Initial)
-[
-    {
-        "train_id": "bacs",
-        "train_no": "12345",
-        "seats": [
-            [0,0,0,0,0,0],
-            [0,0,0,0,0,0],
-            [0,0,0,0,0,0],
-            [0,0,0,0,0,0]
-        ],
-        "station_times": {
-            "bangalore": "13:50:00",
-            "jaipur": "13:50:00",
-            "delhi": "13:50:00"
-        },
-        "stations": [
-            "bangalore",
-            "jaipur",
-            "delhi"
-        ]
-    },
-    {
-        "train_id": "train_xyz",
-        "train_no": "67890",
-        "seats": [
-            [0,0,0,0,0,0],
-            [0,0,0,0,0,0],
-            [0,0,0,0,0,0],
-            [0,0,0,0,0,0]
-        ],
-        "station_times": {
-            "mumbai": "10:00:00",
-            "pune": "12:00:00",
-            "chennai": "18:00:00"
-        },
-        "stations": [
-            "mumbai",
-            "pune",
-            "chennai"
-        ]
-    }
-]
 
 🖥️ Sample Interaction / Output
 Here's a simulated terminal session demonstrating a user signing up, logging in, searching for a train, booking a seat, and viewing their bookings.
