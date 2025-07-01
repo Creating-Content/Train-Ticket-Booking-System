@@ -31,16 +31,17 @@ Java Development Kit (JDK) 21 or later. You can download it from Oracle JDK or O
 Git (optional, for cloning the repository).
 
 Cloning the Repository (if applicable)
+```
 git clone https://github.com/Creating-Content/Train-Ticket-Booking-System.git
-
+```
 Project Structure
 The core application logic resides in the app module.
 
-app/src/main/java/org/example/: Contains the main App class and utility/service classes.
+```app/src/main/java/org/example/:``` Contains the main App class and utility/service classes.
 
-app/src/main/java/org/example/entities/: Contains the Java POJOs (Plain Old Java Objects) for User, Train, and Ticket.
+```app/src/main/java/org/example/entities/: ```Contains the Java POJOs (Plain Old Java Objects) for User, Train, and Ticket.
 
-app/src/main/java/org/example/service/: Contains the business logic for user management (UserBookingService) and train management (TrainService).
+```app/src/main/java/org/example/service/:``` Contains the business logic for user management (UserBookingService) and train management (TrainService).
 
 app/src/main/java/org/example/util/: Contains utility classes like UserServiceUtil for password hashing.
 
