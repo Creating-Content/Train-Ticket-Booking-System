@@ -88,8 +88,6 @@ Here's a simulated terminal session demonstrating a user signing up, logging in,
 📝 Future Enhancements
 Graphical User Interface (GUI): Implement a user-friendly GUI using technologies like JavaFX or Swing.
 
-Database Integration: Replace JSON file persistence with a robust database (e.g., H2, MySQL, PostgreSQL) for better data management and scalability.
-
 Advanced Booking Features: Implement seat selection logic (e.g., specific seat numbers, class types), multiple passenger bookings.
 
 Train Schedule Management: Add an admin interface for managing train schedules, adding/removing trains, and updating routes.
