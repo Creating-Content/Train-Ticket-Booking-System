@@ -79,11 +79,11 @@ The application will print a menu to the console, and you can type your choices 
 Here's a simulated terminal session demonstrating a user signing up, logging in, searching for a train, booking a seat, and viewing their bookings.
 ![Alt text for the image](output_images/output2.png)
 ![Alt text for the image](output_images/output3.png)
-![Alt text for the image](output_images/output4.png)
-![Alt text for the image](output_images/output5.png)
-![Alt text for the image](output_images/output6.png)
-![Alt text for the image](output_images/output7.png)
-![Alt text for the image](output_images/output8.png)
+![Alt text for the image](output_images/output41.png)
+![Alt text for the image](output_images/output51.png)
+![Alt text for the image](output_images/output61.png)
+![Alt text for the image](output_images/output71.png)
+![Alt text for the image](output_images/output81.png)
 
 📝 Future Enhancements
 Graphical User Interface (GUI): Implement a user-friendly GUI using technologies like JavaFX or Swing.
