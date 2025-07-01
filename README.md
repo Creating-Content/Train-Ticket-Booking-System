@@ -43,28 +43,28 @@ The core application logic resides in the app module.
 
 ```app/src/main/java/org/example/service/:``` Contains the business logic for user management (UserBookingService) and train management (TrainService).
 
-app/src/main/java/org/example/util/: Contains utility classes like UserServiceUtil for password hashing.
+```app/src/main/java/org/example/util/:``` Contains utility classes like UserServiceUtil for password hashing.
 
-app/src/main/resources/localDB/: This directory will store your users.json and trains.json files for data persistence. These files will be created automatically if they don't exist when the application runs for the first time.
+```app/src/main/resources/localDB/:``` This directory will store your users.json and trains.json files for data persistence. These files will be created automatically if they don't exist when the application runs for the first time.
 
 Setup and Running the Application
 Navigate to the project's root directory in your terminal. This is the directory containing gradlew.bat (or gradlew on Linux/macOS) and the app folder.
 
-cd C:\Users\ARKADIP GHOSH\Desktop\GOAL\Projects\IRCTC # Example path
+```cd C:\Users\ARKADIP GHOSH\Desktop\GOAL\Projects\IRCTC ```
 
 Build the project. This compiles all Java files and resolves dependencies.
 
-.\gradlew.bat clean build --no-build-cache # For Windows
+```.\gradlew.bat clean build --no-build-cache``` # For Windows
 # Or for Linux/macOS:
-# ./gradlew clean build --no-build-cache
+``` ./gradlew clean build --no-build-cache```
 
 Wait for BUILD SUCCESSFUL message.
 
 Run the application.
 
-.\gradlew.bat run # For Windows
+```.\gradlew.bat run ```# For Windows
 # Or for Linux/macOS:
-# ./gradlew run
+``` ./gradlew run```
 
 Interact with the application.
 The application will print a menu to the console, and you can type your choices (numbers 1-7) and press Enter to interact.
